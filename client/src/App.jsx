@@ -1,5 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
+=======
+import Header from "./components/Header";
+>>>>>>> 386977098c00456034c0843ce54344935016c99c
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -7,6 +11,7 @@ import RegisterPage from "./pages/RegisterPage";
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
+<<<<<<< HEAD
       {/* Simple Navbar */}
       <nav className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-3">
@@ -43,6 +48,10 @@ function App() {
       </nav>
 
       {/* Routes - Each page loads completely */}
+=======
+      <Header />
+      
+>>>>>>> 386977098c00456034c0843ce54344935016c99c
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
